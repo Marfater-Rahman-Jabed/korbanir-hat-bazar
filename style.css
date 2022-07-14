@@ -2,14 +2,18 @@ body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+
 
 }
 
 .sec-width-cl {
     display: flex;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI94ynYP-tPU1_5dNLuOQmq4NxuTjAfSFb7w&usqp=CAU);
+    background-image: linear-gradient(to top, black, transparent), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI94ynYP-tPU1_5dNLuOQmq4NxuTjAfSFb7w&usqp=CAU);
     background-repeat: no-repeat;
     background-size: cover;
+
+
 
 
 
@@ -145,6 +149,14 @@ body {
 
 .color-orange {
     color: orange;
+}
+
+.color-green {
+    color: rgb(0, 255, 0);
+}
+
+.color-blue {
+    color: blue;
 }
 
 .color-white {
