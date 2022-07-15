@@ -9,7 +9,7 @@ body {
 
 .sec-width-cl {
     display: flex;
-    background-image: linear-gradient(to top, black, transparent), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI94ynYP-tPU1_5dNLuOQmq4NxuTjAfSFb7w&usqp=CAU);
+    background-image: linear-gradient(to right, black, transparent), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI94ynYP-tPU1_5dNLuOQmq4NxuTjAfSFb7w&usqp=CAU);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -215,4 +215,28 @@ body {
     background-color: black;
     padding: 2%;
     background-size: cover;
+}
+
+.width {
+    width: 200px;
+    height: 25px;
+}
+
+th,
+td {
+    border: 5px solid green;
+    padding: 0 10px;
+    text-align: justify;
+
+}
+
+table {
+    border-collapse: collapse;
+    background-color: gray;
+
+}
+
+.table-center {
+    margin-left: auto;
+    margin-right: auto;
 }
